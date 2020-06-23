@@ -43,6 +43,6 @@ if __name__ == '__main__':
               --train_batch_size=32 \
               --max_seq_length=128 \
               --max_predictions_per_seq=20 \
-              --num_train_steps=1000 \
+              --num_train_steps=50000 \
               --num_warmup_steps=10 \
               --learning_rate=2e-5'.format(init_bert, bert_config))
